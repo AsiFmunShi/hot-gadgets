@@ -1,6 +1,8 @@
-.container nav a {
-    color: #888888;
+body{
+    font-family: 'Poppins', sans-serif;
 }
+
+
 .carousel-indicators li{
     background-image: linear-gradient(45deg, #ffd11a, #ffe066);
     height: 20px;
@@ -9,7 +11,7 @@
 }
 .carousel-item{
     margin-bottom: 5%;
-    padding: 20px 40px;
+    padding: 20px 30px;
 }
 .buy-now-button {
     background-image: linear-gradient(to bottom, #000000 0%, #292728 100%);
@@ -18,4 +20,8 @@
     border-radius: 8px;
     padding: 9px 25px;
     cursor: pointer;
+}
+.col-md-6 h1, h5{
+    padding-bottom: 2%;
+
 }
