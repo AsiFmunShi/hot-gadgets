@@ -1,8 +1,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-
-
+.carousel-indicators{
+    padding-bottom: 5%;
+}
 .carousel-indicators li{
     background-image: linear-gradient(45deg, #ffd11a, #ffe066);
     height: 20px;
@@ -10,7 +11,7 @@ body{
     border-radius: 50%;
 }
 .carousel-item{
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     padding: 20px 30px;
 }
 .buy-now-button {
@@ -24,4 +25,61 @@ body{
 .col-md-6 h1, h5{
     padding-bottom: 2%;
 
+}
+.txt-orange a{
+    color: orange;
+    text-decoration: none;
+}
+.card-text{
+    text-align: center;
+}
+.card{
+    border: none;
+    box-shadow: 10px 10px 30px lightgray;
+    border-radius: 10px;
+}
+
+.padding-con{
+    padding-bottom: 3%;
+}
+.card-img-top{
+    padding: 10px;
+}
+.card1{
+    margin-left: 10%;
+}
+.card1 img{
+    height: 100px;
+    width: 100px;
+    margin: 10%;
+}
+
+h6{
+    text-align: center;
+    font-weight: 600;
+}
+.card2{
+    margin-bottom: 15%;
+}
+.card3{
+    margin-top: 60%;
+}
+.d-flex{
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.last-img img{
+    height: 350px;
+    width: 500px;
+    padding-right: 5%;
+}
+hr{
+    background-color: orange;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
 }
